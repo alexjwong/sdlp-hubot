@@ -1,17 +1,14 @@
-# Description:
-#   Example scripts for you to examine and try out.
+###
 #
-# Notes:
-#   They are commented out by default, because most of them are pretty silly and
-#   wouldn't be useful and amusing enough for day to day huboting.
-#   Uncomment the ones you want to try and experiment with.
+# Sends dancing man gif every time somebody says Cincinatti or a reasonably spelled alternative.
+# 
+# Avery McIntyre
+# July, 2016
 #
-#   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
+###
 
 module.exports = (robot) ->
-
-	robot.hear /(cincinnati*)/i, (res) ->
+	robot.hear /(cin+cin+at+i+)/i, (res) ->
 	  res.send "DID YOU SAY CINCINATTI!?"
 	  res.send "#http://giphy.com/gifs/TLqkzhMIZxAQg/html5"
-
 
