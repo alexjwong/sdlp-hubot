@@ -22,6 +22,12 @@ chrisEgebergReplies = ['Chris Egeberg (praise be unto him)',
                 'Just keep swimming. -- Chris Egeberg',
                 'Frankly, my dear, I don\'t give a damn. -- Chris Egeberg',
                 'Chris Egeberg (praise be unto him)'
+                'Some magicans can walk on water, Chris Egeberg can swim through land.',
+                'When Alexander Bell invented the telephone he had 3 missed calls from Chris Egeberg',
+                'Chris Egeberg can win a game of Connect Four in only three moves.',
+                'There is no theory of evolution. Just a list of animals Chris Egeberg allows to live.',
+                'Chris Egeberg doesn\'t give the wrong answer, you ask the wrong question',
+                'Chris Egeberg can kill two stones with one bird'
               ]
 
 
