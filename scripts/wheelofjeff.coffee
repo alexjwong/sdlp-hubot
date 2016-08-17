@@ -6,15 +6,16 @@
 # August, 2016
 #
 ###
+
 jeff_img_list = [
-"http://imgur.com/rCWGkQt",
-"http://imgur.com/adj5Zxr",
-"http://imgur.com/DdsPUsP",
-"http://imgur.com/7fMSNIR",
-"http://imgur.com/tDBbhtc",
-"http://imgur.com/jbiWw5V",
-"http://imgur.com/qnCAOhk",
-"http://imgur.com/UamwEqT"
+	"http://imgur.com/rCWGkQt",
+	"http://imgur.com/adj5Zxr",
+	"http://imgur.com/DdsPUsP",
+	"http://imgur.com/7fMSNIR",
+	"http://imgur.com/tDBbhtc",
+	"http://imgur.com/jbiWw5V",
+	"http://imgur.com/qnCAOhk",
+	"http://imgur.com/UamwEqT"
 ]
 
 module.exports = (robot) ->
