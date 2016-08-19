@@ -12,5 +12,5 @@ sassyDtlpResp = [
 ]
 
 module.exports = (robot) ->
-    robot.hear /(SDLP|ITLP)/i, (res) ->
+    robot.hear /\b(SDLP|ITLP)\b/i, (res) ->
         res.reply res.random sassyDtlpResp
