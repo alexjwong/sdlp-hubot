@@ -32,6 +32,7 @@ module.exports = (robot) ->
 			# check to see if the current requester is already a winner
 			requester = "#{res.message.user.name}"
 			# for name in todaysWinners
+			for name in todaysWinners
 				if name == requester
 					res.send "Did you seriously try to get two donuts?"
 					res.send "#https://giphy.com/gifs/C6SvGqBYCWaHu/html5"
