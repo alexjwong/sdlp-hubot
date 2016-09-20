@@ -31,11 +31,11 @@ module.exports = (robot) ->
       todaysWinners = robot.brain.get("todaysWinners_#{dateString}")
       # check to see if the current requester is already a winner
       requester = "#{res.message.user.name}"
-      # for name in todaysWinners
-      if name == requester
-        res.send "Did you seriously try to get two donuts?"
-        res.send "#https://giphy.com/gifs/C6SvGqBYCWaHu/html5"
-        return
+      for name in todaysWinners
+        if name == requester
+          res.send "Did you seriously try to get two donuts?"
+          res.send "#https://giphy.com/gifs/C6SvGqBYCWaHu/html5"
+          return
       # give requester a donut
       todaysWinners[ donutsReserved ] = requester
       donutsReserved = donutsReserved + 1
